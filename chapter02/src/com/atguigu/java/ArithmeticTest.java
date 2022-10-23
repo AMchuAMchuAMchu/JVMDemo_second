@@ -19,6 +19,7 @@ public class ArithmeticTest {
         double d1 = 0.0;
         double d2 = d1 / 0.0;
         System.out.println(d2);//NaN: not a number
+
     }
 
     public void method2(){
