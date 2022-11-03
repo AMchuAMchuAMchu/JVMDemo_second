@@ -9,12 +9,14 @@ import org.junit.Test;
  * 指令2：算术指令
  */
 public class ArithmeticTest {
+
+
+
     @Test
     public void method1(){
         int i = 10;
         double j = i / 0.0;
         System.out.println(j);//无穷大
-
 
         double d1 = 0.0;
         double d2 = d1 / 0.0;
